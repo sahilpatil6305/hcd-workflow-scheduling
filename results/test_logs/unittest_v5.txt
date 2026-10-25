@@ -1,0 +1,32 @@
+test_attempt_time_monte_carlo (tests.test_fawsim.TestClosedForms.test_attempt_time_monte_carlo) ... ok
+test_limits (tests.test_fawsim.TestClosedForms.test_limits) ... ok
+test_single_vm_restart_matches_aupy_formula (tests.test_fawsim.TestClosedForms.test_single_vm_restart_matches_aupy_formula)
+Simulator vs closed form: one task, one VM, restart after repair R >= o: ... ok
+test_deterministic_disjoint_and_prefix_stable (tests.test_fawsim.TestEnvironment.test_deterministic_disjoint_and_prefix_stable) ... ok
+test_rates_mean_and_coupling (tests.test_fawsim.TestEnvironment.test_rates_mean_and_coupling) ... ok
+test_regime_shift_disjoint (tests.test_fawsim.TestEnvironment.test_regime_shift_disjoint) ... ok
+test_uptime_distribution (tests.test_fawsim.TestEnvironment.test_uptime_distribution) ... ok
+test_discount_limits (tests.test_fawsim.TestEstimator.test_discount_limits) ... ok
+test_gamma_posterior_mean (tests.test_fawsim.TestEstimator.test_gamma_posterior_mean) ... ok
+test_pooled (tests.test_fawsim.TestEstimator.test_pooled) ... ok
+test_inplace_score_is_aupy_formula (tests.test_fawsim.TestPolicyRegistry.test_inplace_score_is_aupy_formula) ... ok
+test_names (tests.test_fawsim.TestPolicyRegistry.test_names) ... ok
+test_failure_free_bounds (tests.test_fawsim.TestSimulator.test_failure_free_bounds) ... ok
+test_future_trace_invariance (tests.test_fawsim.TestSimulator.test_future_trace_invariance)
+Decisions before t* must not depend on outages after t*. ... ok
+test_history_only_seen_by_history_policies (tests.test_fawsim.TestSimulator.test_history_only_seen_by_history_policies) ... ok
+test_oracle_access_denied_to_online_policies (tests.test_fawsim.TestSimulator.test_oracle_access_denied_to_online_policies) ... ok
+test_paired_trace_and_determinism (tests.test_fawsim.TestSimulator.test_paired_trace_and_determinism) ... ok
+test_queue_release_regression (tests.test_fawsim.TestSimulator.test_queue_release_regression)
+v4 left queued tasks on a failed VM until repair (makespan 51). v5 releases them. ... ok
+test_reduction_to_eft_without_failures (tests.test_fawsim.TestSimulator.test_reduction_to_eft_without_failures)
+H0: with lambda == 0 every ECT variant makes EFT's decisions. ... ok
+test_restart_discards_progress (tests.test_fawsim.TestSimulator.test_restart_discards_progress) ... ok
+test_cycle_rejected (tests.test_fawsim.TestWorkflows.test_cycle_rejected) ... ok
+test_instances_have_parallelism (tests.test_fawsim.TestWorkflows.test_instances_have_parallelism) ... ok
+test_instances_valid_and_normalised (tests.test_fawsim.TestWorkflows.test_instances_valid_and_normalised) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 20.754s
+
+OK

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+results/*/raw.csv
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.out
+manuscript/*.bbl
+manuscript/*.blg
+.DS_Store

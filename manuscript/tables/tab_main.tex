@@ -1,0 +1,26 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Geometric-mean makespan change vs.\ EFT (\%) with 95\% stratified-bootstrap CI; 1{,}400 paired replicates per row (14 workflows $\times$ 100 test seeds). Bold: CI excludes 0. Negative is better. ECT/RT ``known'' use true per-VM rates; ``online'' estimates them from monitoring; ``pooled'' uses the true pool-mean rate for every VM.}\label{tab:main}
+\setlength{\tabcolsep}{3pt}\begin{tabular}{llrrrrrr}
+\toprule
+$\rho$ & rates & ECT known & ECT online & RT known & RT online & ECT pooled & AR-v4\\
+\midrule
+0.01 & uniform & \textbf{+0.1 [+0.1,+0.1]} & \textbf{+0.1 [+0.1,+0.2]} & \textbf{+0.1 [+0.0,+0.1]} & \textbf{+0.1 [+0.0,+0.2]} & \textbf{+0.1 [+0.1,+0.1]} & \textbf{+1.3 [+1.1,+1.5]}\\
+0.01 & fast-vol. & \textbf{-1.0 [-1.5,-0.5]} & -0.1 [-0.4,+0.1] & \textbf{-0.7 [-1.0,-0.3]} & -0.1 [-0.3,+0.0] & +0.1 [-0.0,+0.1] & \textbf{+0.6 [+0.2,+1.1]}\\
+0.01 & random-vol. & -0.2 [-0.4,+0.1] & \textbf{+0.1 [+0.0,+0.1]} & -0.0 [-0.2,+0.2] & \textbf{+0.1 [+0.0,+0.2]} & \textbf{+0.1 [+0.0,+0.1]} & \textbf{+0.5 [+0.4,+0.7]}\\
+0.01 & slow-vol. & +0.0 [-0.0,+0.0] & \textbf{+0.0 [+0.0,+0.1]} & \textbf{+0.1 [+0.1,+0.2]} & \textbf{+0.1 [+0.0,+0.1]} & \textbf{+0.0 [+0.0,+0.1]} & \textbf{+0.7 [+0.5,+0.8]}\\
+\addlinespace[2pt]
+0.03 & uniform & +0.0 [-0.2,+0.2] & -0.1 [-0.4,+0.2] & +0.1 [-0.0,+0.2] & \textbf{+0.3 [+0.1,+0.4]} & +0.0 [-0.2,+0.2] & \textbf{+4.2 [+3.6,+4.8]}\\
+0.03 & fast-vol. & \textbf{-3.3 [-4.1,-2.5]} & \textbf{-2.2 [-2.8,-1.6]} & \textbf{-3.3 [-4.0,-2.5]} & \textbf{-1.8 [-2.4,-1.3]} & +0.1 [-0.1,+0.2] & +0.2 [-0.7,+0.9]\\
+0.03 & random-vol. & \textbf{-0.9 [-1.3,-0.5]} & \textbf{-0.4 [-0.7,-0.2]} & \textbf{-0.9 [-1.2,-0.5]} & \textbf{-0.2 [-0.5,-0.0]} & -0.1 [-0.3,+0.0] & \textbf{+1.8 [+1.4,+2.2]}\\
+0.03 & slow-vol. & +0.0 [-0.0,+0.1] & \textbf{+0.2 [+0.1,+0.3]} & +0.0 [-0.1,+0.2] & -0.0 [-0.1,+0.1] & +0.1 [-0.0,+0.2] & \textbf{+1.8 [+1.5,+2.1]}\\
+\addlinespace[2pt]
+0.1 & uniform & \textbf{+1.6 [+0.5,+2.7]} & \textbf{+1.8 [+0.8,+2.9]} & +0.2 [-0.2,+0.6] & +0.2 [-0.3,+0.8] & \textbf{+1.6 [+0.5,+2.7]} & \textbf{+9.5 [+8.4,+10.7]}\\
+0.1 & fast-vol. & \textbf{-6.0 [-6.8,-5.2]} & \textbf{-3.3 [-4.2,-2.4]} & \textbf{-5.7 [-6.4,-4.9]} & \textbf{-2.3 [-3.1,-1.6]} & \textbf{-2.0 [-2.6,-1.4]} & +0.7 [-0.2,+1.7]\\
+0.1 & random-vol. & \textbf{-0.6 [-1.1,-0.2]} & \textbf{+0.7 [+0.1,+1.3]} & \textbf{-1.0 [-1.4,-0.6]} & \textbf{-0.4 [-0.7,-0.0]} & \textbf{+1.4 [+0.7,+2.1]} & \textbf{+5.6 [+4.9,+6.2]}\\
+0.1 & slow-vol. & -0.0 [-0.2,+0.2] & \textbf{+0.9 [+0.4,+1.5]} & -0.2 [-0.5,+0.1] & +0.0 [-0.2,+0.3] & \textbf{+1.1 [+0.4,+1.8]} & \textbf{+4.4 [+3.8,+4.9]}\\
+\addlinespace[2pt]
+0.3 & uniform & \textbf{+8.1 [+5.7,+10.6]} & \textbf{+9.0 [+6.7,+11.5]} & \textbf{+0.6 [+0.0,+1.3]} & \textbf{+0.9 [+0.4,+1.5]} & \textbf{+8.1 [+5.7,+10.6]} & \textbf{+9.3 [+8.4,+10.2]}\\
+0.3 & fast-vol. & -0.0 [-1.3,+1.3] & -0.3 [-1.5,+0.9] & \textbf{-1.8 [-2.4,-1.2]} & -0.2 [-0.8,+0.4] & \textbf{-1.2 [-2.0,-0.4]} & \textbf{+5.8 [+4.8,+6.8]}\\
+0.3 & random-vol. & \textbf{+3.7 [+2.3,+5.0]} & \textbf{+3.8 [+2.6,+5.1]} & -0.1 [-0.5,+0.3] & +0.1 [-0.3,+0.6] & \textbf{+3.3 [+2.2,+4.5]} & \textbf{+7.5 [+6.7,+8.3]}\\
+0.3 & slow-vol. & \textbf{+3.1 [+1.9,+4.2]} & \textbf{+3.3 [+2.2,+4.3]} & \textbf{+0.4 [+0.0,+0.8]} & +0.1 [-0.4,+0.6] & \textbf{+2.2 [+1.2,+3.3]} & \textbf{+6.7 [+5.9,+7.5]}\\
+\bottomrule\end{tabular}\end{table*}

@@ -1,0 +1,198 @@
+{
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "policies": [
+  "EFT",
+  "RT-Hist-b0.5",
+  "RT-HistCD-b0.5-a0.001",
+  "RT-HistCD-b0.5-a0.01",
+  "RT-HistCD-b0.5-a0.05"
+ ],
+ "grid": [
+  [
+   "random-volatile",
+   0.03,
+   5,
+   false
+  ],
+  [
+   "random-volatile",
+   0.03,
+   5,
+   true
+  ],
+  [
+   "random-volatile",
+   0.03,
+   50,
+   false
+  ],
+  [
+   "random-volatile",
+   0.03,
+   50,
+   true
+  ],
+  [
+   "random-volatile",
+   0.1,
+   5,
+   false
+  ],
+  [
+   "random-volatile",
+   0.1,
+   5,
+   true
+  ],
+  [
+   "random-volatile",
+   0.1,
+   50,
+   false
+  ],
+  [
+   "random-volatile",
+   0.1,
+   50,
+   true
+  ],
+  [
+   "random-volatile",
+   0.3,
+   5,
+   false
+  ],
+  [
+   "random-volatile",
+   0.3,
+   5,
+   true
+  ],
+  [
+   "random-volatile",
+   0.3,
+   50,
+   false
+  ],
+  [
+   "random-volatile",
+   0.3,
+   50,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.03,
+   5,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.03,
+   5,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.03,
+   50,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.03,
+   50,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.1,
+   5,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.1,
+   5,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.1,
+   50,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.1,
+   50,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.3,
+   5,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.3,
+   5,
+   true
+  ],
+  [
+   "fast-volatile",
+   0.3,
+   50,
+   false
+  ],
+  [
+   "fast-volatile",
+   0.3,
+   50,
+   true
+  ]
+ ],
+ "n_jobs": 6720,
+ "fawsim_version": "5.0.0",
+ "python": "3.13.17",
+ "numpy": "2.5.3",
+ "created": "2026-10-25T16:46:09+0000",
+ "instances_sha256": {
+  "1000genome-chameleon-2ch-100k-001.json": "a5ca2d82c4afba2089402f0d5a8fa9d12efd241087481ee5348bd1fd9676641b",
+  "1000genome-chameleon-4ch-100k-001.json": "d5197d39a7c36ae7d490414a71e681ac9f5e8a3e8ced69153241a338ab0a8843",
+  "cycles-chameleon-1l-1c-9p-001.json": "621ffd612a9cd7822ee5441dc0cf2ffa7168308b80daced79013c07af243fd81",
+  "cycles-chameleon-2l-1c-9p-001.json": "fb4d466c81c080894f21d9fbeb35fbf78cce667bc80858ef837889d8ba332d24",
+  "epigenomics-chameleon-hep-1seq-50k-001.json": "fe798753604069c0c4a1460cb93c0d74c7e77a54023a08f0361f439883054aa8",
+  "epigenomics-chameleon-ilmn-1seq-100k-001.json": "a45cdf3b82f0c0d242884168b6826da6a8f8f6f69bf0b697f03fd5ca19ceb2a3",
+  "montage-chameleon-2mass-005d-001.json": "f2e08d9aa39815ccbae5536ec5f216dcaf935c930b8559dc16034b81a0f10b32",
+  "montage-chameleon-2mass-01d-001.json": "b8cecca67691e288a627222b9de091b03361994f548f81ff05d0a80df5e0a9bd",
+  "seismology-chameleon-100p-001.json": "b7389479ccd9330fa9d53839aae3cbd762f137efe028a82066a65fdbc73e3a05",
+  "seismology-chameleon-200p-001.json": "a4d650033606b941e0e94a3387e1907c956fa67ba004da3d9a28a3e388ceeaa2",
+  "soykb-chameleon-10fastq-10ch-001.json": "d04dac25ef46792c3a56583a91028ffd000c74cdcc41d6cfe566fcccad13e92d",
+  "soykb-chameleon-20fastq-10ch-001.json": "76e03cc9e3fd99dcf3c440ccff430c2a172c11499e412e3f9527720e1aaf7e1f",
+  "srasearch-chameleon-20a-001.json": "bdf9e7f9f104f6c1cd302c26e8dfd902b9d29a09832559544b27d584a166ad41",
+  "srasearch-chameleon-50a-001.json": "1da47d9612032652e9cafb1a7cca21d1c1693c9af6a0abe68eae039edce15315"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "beta": 0.5,
+ "criterion": "min mean log(makespan/EFT) over all tuning replicates (seeds 0-19, 4 rho x 4 couplings x 14 instances)",
+ "scores": {
+  "RT-Oracle-b0.5": -0.007930171294290878,
+  "RT-Oracle-b1": -0.0070688758406100395,
+  "RT-Oracle-b2": -0.0026813701390846242,
+  "RT-Oracle-b4": 0.009361031873105647,
+  "RT-Oracle-b8": 0.03552477062280656
+ }
+}

@@ -1,0 +1,17 @@
+cfg_rho,cfg_coupling,frac_horizon_extended
+0.01,fast-volatile,0.0
+0.01,random-volatile,0.0
+0.01,slow-volatile,0.0
+0.01,uniform,0.0
+0.03,fast-volatile,0.0
+0.03,random-volatile,0.0
+0.03,slow-volatile,0.0
+0.03,uniform,0.0
+0.1,fast-volatile,0.0
+0.1,random-volatile,0.0
+0.1,slow-volatile,0.0
+0.1,uniform,0.0
+0.3,fast-volatile,0.0
+0.3,random-volatile,0.0
+0.3,slow-volatile,0.0
+0.3,uniform,0.07428571428571429
